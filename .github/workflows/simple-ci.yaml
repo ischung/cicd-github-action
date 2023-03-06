@@ -1,4 +1,4 @@
-name: deploying to AWS
+name: simple example for continuous integration
 
 on:
   push:
