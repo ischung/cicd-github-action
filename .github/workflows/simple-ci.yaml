@@ -10,7 +10,7 @@ env:
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: ez2learn-calc-dg
 
 jobs: 
-  unit-acceptance-test:
+  unit-api-test:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
