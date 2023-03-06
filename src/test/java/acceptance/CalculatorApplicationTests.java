@@ -30,4 +30,16 @@ class CalculatorApplicationTests {
 		assertEquals("Welcome GitHub Action Home!", result);
 	}
 
+	@Test
+	void getSum() {
+		int result = testRestTemplate.getForObject(server+":" + randomServerPort + "/sum?a=5&b=10", Integer.class);
+		assertEquals(15, result);
+	}
+
+	// @Test
+	// void getDiff() {
+	// 	int result = testRestTemplate.getForObject(server+":" + randomServerPort + "/diff?a=5&b=10", Integer.class);
+	// 	assertEquals(-5, result);
+	// }
+
 }

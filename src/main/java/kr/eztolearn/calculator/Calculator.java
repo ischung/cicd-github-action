@@ -4,7 +4,8 @@ public class Calculator {
 
     private int a;
     private int b;
-    private int sum;
+   // private int sum;
+    private int result;
 
     public Calculator() {
     }
@@ -14,9 +15,15 @@ public class Calculator {
         this.b = b;
     }
 
+
     public int getSum() {
-        this.sum = a + b;
-        return this.sum;
+        this.result = a + b;
+        return this.result;
     }
+
+    // public int getDifference() {
+    //     this.result = a - b;
+    //     return this.result;
+    // }
 
 }
