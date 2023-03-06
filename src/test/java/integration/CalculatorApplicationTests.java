@@ -1,4 +1,4 @@
-package acceptance;
+package integration;
 
 import kr.eztolearn.calculator.CalculatorApplication;
 import org.junit.jupiter.api.Test;

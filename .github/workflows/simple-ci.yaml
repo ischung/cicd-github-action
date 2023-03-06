@@ -30,8 +30,8 @@ jobs:
         run: chmod +x gradlew
       - name: Unit Test
         run: ./gradlew test -Dcalculator.url=http://localhost
-      - name: Acceptance Test
-        run: ./gradlew acceptanceTest -Dcalculator.url=http://localhost
+      - name: Api Test
+        run: ./gradlew apiTest -Dcalculator.url=http://localhost
   #deploy:
    # runs-on: ubuntu-latest
 

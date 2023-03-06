@@ -23,14 +23,14 @@ jar {
     enabled = false
 }
 
-task acceptanceTest(type: Test) {
-	include '**/acceptance/**'
+task apiTest(type: Test) {
+	include '**/integration/**'
 	systemProperty "calculator.url", System.getProperty("calculator.url")
 	useJUnitPlatform()
 }
 
 test {
-	exclude '**/acceptance/**'
+	exclude '**/integration/**'
 	systemProperty "calculator.url", System.getProperty("calculator.url")
 	useJUnitPlatform()
 }
