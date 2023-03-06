@@ -1,4 +1,4 @@
-name: Simple Continuous Integration with Unit and Acceptance Test
+name: Simple Continuous Integration with Unit and Acceptance Test 
 
 on:
   push:
